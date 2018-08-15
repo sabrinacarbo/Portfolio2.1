@@ -1,0 +1,252 @@
+.border-box{
+  background-image: url("../images/driftwood.jpg");
+  background-size: 100%;
+  height: auto;
+  clear: both;
+  color: rgba(51, 51, 51, 0.9);
+} 
+
+/* ======================= HEADER ========================= */
+.nav-wrapper{
+  background-color: darkgray;
+  padding: 0 10px;
+  border-bottom: 0;
+}
+a.brand-logo{
+  color: rgba(51, 51, 51, 0.9);
+  font-size: 40px;
+}
+
+nav ul a{
+  color: rgba(51, 51, 51, 0.9);
+  font-size: 20px;
+}
+
+
+/* ======================= INDEX CONTENT ========================= */
+.content-box{
+  background-color: lightgray;
+  width: 900px;
+  margin: 0 auto;
+  height: 100%;
+  display: block;
+}
+
+/* ======================= QUOTES ========================= */
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,900);
+.snip1386 {
+  font-family: 'Playfair Display', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  max-height: 220px;
+  width: 100%;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  background-color: #000000;
+}
+.snip1386 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1386 .background {
+  max-width: 100%;
+  backface-visibility: hidden;
+  opacity: 0.5;
+}
+.snip1386 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 1;
+  padding: 30px 10px 30px 0;
+  background-color: #ffffff;
+  width: 40%;
+}
+.snip1386 figcaption:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 100%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 0 120px 120px;
+  border-color: transparent transparent transparent #ffffff;
+}
+.snip1386:after {
+  position: absolute;
+  bottom: 50%;
+  left: 40%;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 120px 120px 0 120px;
+  border-color: rgba(255, 255, 255, 0.5) transparent transparent transparent;
+}
+.snip1386 h5,
+.snip1386 blockquote {
+  line-height: 1.6em;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  margin: 0;
+}
+.snip1386 h5 {
+  margin: 10px 0;
+  line-height: 1.1em;
+  font-weight: 900;
+  color: #1a1a1a;
+}
+.snip1386 blockquote {
+  font-size: 0.9em;
+  font-style: italic;
+}
+.snip1386 .profile {
+  position: absolute;
+  width: 100px;
+  border-radius: 50%;
+  top: 50%;
+  right: 25%;
+  z-index: 1;
+  -webkit-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+/* Demo purposes only */
+/* body {
+  background-color: #212121;
+} */
+
+
+/* ======================= PORTFOLIO CONTENT ========================= */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.snip1584 {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px 8px;
+  min-width: 230px;
+  max-width: 400px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  /* text-align: left; */
+}
+.snip1584 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1584:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 100%;
+  content: '';
+  background-color: rgba(51, 51, 51, 0.9);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.snip1584 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.snip1584 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1584 h4,
+.snip1584 h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+.snip1584 h4 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 200;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.snip1584 h5 {
+  font-weight: normal;
+  background-color: #E6E6FA;
+  padding: 3px 10px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  color: rgba(51, 51, 51, 0.9);
+}
+.snip1584 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1584:hover:before,
+.snip1584.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584:hover h4,
+.snip1584.hover h4,
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.snip1584:hover h4,
+.snip1584.hover h4 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+/* ======================= FOOTER ========================= */
+.page-footer{
+  background-color: darkgray;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  clear: both;
+  position: fixed;
+  text-align: center;
+  color: rgba(51, 51, 51, 0.9);
+}

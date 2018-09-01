@@ -6,15 +6,28 @@
   color: rgba(51, 51, 51, 0.9);
 } 
 
+h2{
+  color: black;
+}
+
+p{
+  color: black;
+}
+
+.btn-primary{
+  background-color: #D8BFD8;
+  color: black;
+}
+
 /* ======================= HEADER ========================= */
 .nav-wrapper{
   background-color: darkgray;
-  padding: 0 10px;
   border-bottom: 0;
 }
-a.brand-logo{
+
+a.navbar-brand{
   color: rgba(51, 51, 51, 0.9);
-  font-size: 40px;
+  font-size: 30px;
 }
 
 nav ul a{
@@ -22,14 +35,18 @@ nav ul a{
   font-size: 20px;
 }
 
-
 /* ======================= INDEX CONTENT ========================= */
-.content-box{
-  background-color: lightgray;
+section.content-box{
+  background-image: url("../images/background.jpg");
   width: 900px;
   margin: 0 auto;
   height: 100%;
   display: block;
+  padding: 10px;
+}
+
+.quotes-box{
+  clear: left;
 }
 
 /* ======================= QUOTES ========================= */
@@ -239,7 +256,16 @@ nav ul a{
   transition-delay: 0.2s;
 }
 
+/* ======================= CONTACT PAGE ========================= */
+label{
+  color: black;
+}
+
 /* ======================= FOOTER ========================= */
+footer::before{
+  padding: 10px;
+}
+
 .page-footer{
   background-color: darkgray;
   bottom: 0;
